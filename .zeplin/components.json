@@ -1,0 +1,24 @@
+{
+    "projects": [],
+    "styleguides": [
+        "5dc531054c166a77d39d19b0"
+    ],
+    "components": [
+        {
+            "path": "Connected Components/Components/Button.swift",
+            "zeplinNames": [
+                "Controls / Button / Secondary",
+                "Controls / Button / Apple Pay",
+                "Controls / Button / Primary"
+            ]
+        },
+        {
+            "path": "Connected Components/Components/Card.swift",
+            "zeplinNames": [
+                "Card",
+                "Card with reviews",
+                "Card with description"
+            ]
+        }
+    ]
+}
