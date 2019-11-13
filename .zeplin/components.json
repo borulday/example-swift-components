@@ -6,6 +6,9 @@
     "components": [
         {
             "path": "Connected Components/Components/Button.swift",
+            "urlPaths": {
+                "github": "Connected%20Components/Components/Button.swift"
+            },
             "zeplinNames": [
                 "Controls / Button / Secondary",
                 "Controls / Button / Apple Pay",
@@ -14,11 +17,28 @@
         },
         {
             "path": "Connected Components/Components/Card.swift",
+            "urlPaths": {
+                "github": "Connected%20Components/Components/Card.swift"
+            },
             "zeplinNames": [
                 "Card",
                 "Card with reviews",
                 "Card with description"
             ]
+        },
+        {
+            "path": "Connected Components/Components/NavigationBar.swift",
+            "zeplinNames": [
+                "Navigation bar / Transparent",
+                "Navigation bar / Large",
+                "Navigation bar / Normal"
+            ]
+        }
+    ],
+    "baseURLs": [
+        {
+            "type": "github",
+            "url": "https://github.com/borulday/example-swift-components/blob/master"
         }
     ]
 }

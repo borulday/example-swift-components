@@ -36,13 +36,13 @@ final class Card: UIView {
 
     // MARK: Initializers
 
-    init(title: String,
-         details: String,
-         imageHeader: String? = nil,
-         imageSubHeader: String? = nil,
-         image: UIImage?,
-         imagePosition: ImagePosition = .left,
-         size: Size = .regular) {
+    required init(title: String,
+                 details: String,
+                 imageHeader: String? = nil,
+                 imageSubHeader: String? = nil,
+                 image: UIImage?,
+                 imagePosition: ImagePosition = .left,
+                 size: Size = .regular) {
         self.title = title
         self.details = details
 
