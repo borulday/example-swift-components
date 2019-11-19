@@ -1,25 +1,25 @@
 {
     "projects": [],
     "styleguides": [
-        "5dc531054c166a77d39d19b0"
+        "5cd36f1aeadfea34c048acf7"
     ],
     "components": [
         {
             "path": "Connected Components/Components/Button.swift",
-            "urlPaths": {
-                "github": "Connected%20Components/Components/Button.swift"
-            },
             "zeplinNames": [
                 "Controls / Button / Secondary",
                 "Controls / Button / Apple Pay",
                 "Controls / Button / Primary"
-            ]
+            ],
+            "wiki": {
+                "urlPath": "components/button"
+            },
+            "public": {
+                "urlPath": "components/custom/button"
+            }
         },
         {
             "path": "Connected Components/Components/Card.swift",
-            "urlPaths": {
-                "github": "Connected%20Components/Components/Card.swift"
-            },
             "zeplinNames": [
                 "Card",
                 "Card with reviews",
@@ -35,10 +35,19 @@
             ]
         }
     ],
-    "baseURLs": [
+    "github": {
+        "repository": "borulday/example-swift-components"
+    },
+    "links": [
         {
-            "type": "github",
-            "url": "https://github.com/borulday/example-swift-components/blob/master"
+            "name": "Internal Design System Wiki",
+            "type": "wiki",
+            "url": "https://wiki.example.com/design-system"
+        },
+        {
+            "name": "Public Design System Documentation",
+            "type": "public",
+            "url": "https://design.example.com/"
         }
     ]
 }
