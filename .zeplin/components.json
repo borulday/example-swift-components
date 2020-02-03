@@ -1,4 +1,9 @@
 {
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-swift-plugin"
+        }
+    ],
     "projects": [],
     "styleguides": [
         "5cd36f1aeadfea34c048acf7"
